@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 70%;
+  color: #fff;
+  background-color: #333;
+}
+
+header {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+  background-color: rgba(13, 1, 1, 0.957);
+  padding: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  min-height: 20vh;
+}
+
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+.seconds {
+  color: rgb(20, 196, 20);
+}
+
+.current--word {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  z-index: 10;
+  margin-bottom: 0.7em;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.8em;
+  outline: none;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.asidebar {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.time--holder {
+  font-size: 1.5rem;
+  margin-bottom: 0.8em;
+}
+
+.score {
+  color: rgb(20, 196, 20);
+}
+
+.score--holder {
+  font-size: 1.5rem;
+}
+
+.instructions {
+  background-color: rgba(13, 1, 1, 0.957);
+  padding: 0.6rem;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>QuickTyping</h1>
+    </header>
+
+    <!-- Word & input -->
+    <main>
+      <div class="row">
+        <div class="container">
+          <p class="lead">
+            Type the given word below in <span class="seconds">5</span> Seconds:
+          </p>
+          <h2 class="current--word">Hello</h2>
+          <input
+            type="text"
+            placeholder="Start Typing..."
+            class="form-control"
+          />
+          <h4 class="message"></h4>
+
+          <!-- Time & Score -->
+          <div class="asidebar">
+            <h3 class="time--holder">Time Left: <span class="time">0</span></h3>
+            <h3 class="score--holder">Score: <span class="score">0</span></h3>
+          </div>
+        </div>
+        <!-- Instructtions -->
+        <div class="instructions">
+          <h5 class="asidebar">Instructions:</h5>
+          <p>
+            Type each word in the given amount of seconds to score. To play
+            again, just type the current word, Your score will reset.
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
